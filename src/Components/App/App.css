@@ -1,0 +1,22 @@
+  
+.app-container {
+  height: 80vh;
+  width: 80vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+ 
+  
+
+}
+
+@media screen and (max-width: 400px) {
+  .app-container {
+    align-items: flex-start;
+  }
+}
+#ctr{
+  text-align: center;
+  background-color: hotpink;
+  
+}
